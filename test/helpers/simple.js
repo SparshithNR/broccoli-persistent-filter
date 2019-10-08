@@ -7,6 +7,9 @@ class MyFilter extends Filter {
   constructor(inputTree, options) {
     super(inputTree, options);
   }
+  processString(string) {
+    return string;
+  }
 }
 
 module.exports = MyFilter;
